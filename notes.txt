@@ -1,0 +1,7 @@
+Db creation:
+1. cli "python"
+2. from app import db
+3. db.create_all()
+
+Docker:
+docker run -p 5000:5000 -d dockerizedflask_simple_flask
